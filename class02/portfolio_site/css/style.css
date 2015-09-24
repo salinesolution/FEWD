@@ -1,3 +1,7 @@
+html {
+	overflow-y:scroll;
+}
+
 body {
 	background-color:rgba(226, 225, 219, 0.33);
 	border-top: solid 5px black;
@@ -9,6 +13,7 @@ body {
 
 header {
 	text-align:center;
+	font-weight:bold;
 }
 
 footer {
@@ -36,16 +41,9 @@ hr {
 	color:black;
 }
 
-p {
-	line-height:150%;
-}
-
+p,
 li {
 	line-height:150%;
-}
-
-a:hover{
-	font-weight:bold;
 }
 
 h1 {
@@ -54,4 +52,10 @@ h1 {
 
 h3 {
 	font-size:15px;
+}
+
+.about-me a.about-me,
+.portfolio a.portfolio {
+	font-style:italic;
+	text-decoration:none;
 }
