@@ -1,7 +1,7 @@
 /*
-Project Name: Blank Template
+Project Name: Relaxr
 Client: Your Client
-Author: Your Name
+Author: Saline Jiang
 Developer @GA in NYC
 */
 
@@ -63,22 +63,101 @@ body {
 #container {
   width: 100%;
   margin: auto;
-  height: 500px;
+  height: 800px;
 
 }
 
 header {
+  height:30%;
+  margin: 5%;  
+  text-align: center;
+}
 
+#benefits {
+  background: white;
+  height: 30%;
+  border: 5%;
+  text-indent: 5%;
+  padding-top: 3%;
+}
+
+#quote {
+  height:25%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+}
+
+#now {
+  background: yellow;
+  height:10%;
+  text-align: center;
+  padding-top: 2%;
 }
 
 footer {
-
+  height:20%;
+  text-align: center;
+  background: black;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
+h1 {
+  font-weight: bolder;
+  color: white;
+  font-size: 24px;
+  height:40px;
+  text-align: left;
+}
 
+h2 {
+  color: white;
+  font-size: 24px;
+  height: 90px;
+}
 
+header a {
+  font-size: 14px;
+  text-decoration: none;
+  background-color: yellow;
+  font-color: black;
+  padding: 5px 15px 5px 15px;
+  border-radius: 5px;
+}
 
+h3 {
+  font-size: 20px;
+}
+
+h3 p, h3 ul {
+  font-size: 13px;
+}
+
+#quote {
+  font-size: 18px;
+  color: white;
+  padding-top: 5%;
+}
+
+#now a {
+  font-size: 12px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 40px;
+  background-color: blue;
+  border-radius: 5px;
+}
+
+footer p {
+  font-size: 24px;
+  padding: 20px;
+  color: yellow;
+}
+
+footer small {
+  font-size: 9px;
+  font-color: white;
+}
