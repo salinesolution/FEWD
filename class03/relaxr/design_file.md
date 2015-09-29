@@ -33,3 +33,11 @@ Weight: Light, Light Italic, Semibold, Extrabold
 
 Relaxr - extra bold, 24px
 "Copyright 2015. Relaxr." - 9px, semibold
+
+===============
+
+light 300
+light 300 italic
+normal 400
+semibold 600
+extra-bold 800
