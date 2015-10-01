@@ -1,8 +1,8 @@
 /*
 Project Name: Relaxr
-Client: Your Client
+Client: GA
 Author: Saline Jiang
-Developer @GA in NYC
+Developer @GA in DC
 */
 
 
@@ -46,12 +46,12 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+  color: #000;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
 }
 
 
@@ -63,37 +63,30 @@ body {
 #container {
   width: 100%;
   margin: auto;
-  height: 600px;
-
 }
 
 header {
-  height: 30%;
-  margin: 5%;  
   text-align: center;
+  padding: 10px 5% 20px 5%;
 }
 
-#benefits {
+.benefits {
   background-color: #f0efef;
-  height: 30%;
-  padding: 5% 30% 5% 5%;
+  padding: 10px 5% 20px 5%;
 }
 
-#quote {
-  height:20%;
+.quote {
   padding: 3% 20%;
   text-align: center;
 }
 
-#now {
+.now {
   background-color: #f9e42e;
-  height:7%;
   text-align: center;
   padding: 30px;
 }
 
 footer {
-  height:20%;
   text-align: center;
   background-color: #121212;
 }
@@ -106,8 +99,6 @@ h1 {
   color: white;
   font-size: 24px;
   font-weight: 800;
-  height: 40px;
-  margin-bottom: 20px;
   text-align: left;
 }
 
@@ -115,7 +106,7 @@ h2 {
   color: white;
   font-size: 24px;
   font-weight: 600;
-  height: 90px;
+  margin: 50px;
 }
 
 header a {
@@ -124,26 +115,28 @@ header a {
   font-color: black;
   font-size: 14px;
   font-weight: 800;
-  padding: 10px 25px;
+  margin-bottom: 30px;
+  padding: 10px 30px;
   text-decoration: none;
 }
 
 h3 {
   font-size: 20px;
   font-weight: 800;
+}
+
+
+.benefits p {
   margin-bottom: 10px;
 }
 
-h3 p, h3 ul {
-  font-size: 13px;
+.benefits p, .benefits ul {
+  font: 13px;
   font-weight: 300;
+  padding-right: 40%;
 }
 
-#benefits p {
-  margin-bottom: 10px;
-}
-
-#quote {
+.quote {
   font-size: 18px;
   color: white;
   padding-top: 5%;
@@ -154,11 +147,11 @@ blockquote {
   font-weight: 300;
 }
 
-#quote p {
+.quote p {
   font-weight: 600;
 }
 
-#now a {
+.now a {
   background-color: #033048;
   border-radius: 5px;
   color: white;
@@ -169,19 +162,22 @@ blockquote {
 }
 
 footer p {
+  color: yellow;
   font-size: 24px;
   font-weight: 800;
   padding: 20px;
-  color: yellow;
+}
+
+footer img {
+  height: 20px;
+  width: auto;
+  margin: 20px 0px 0px 5px;
 }
 
 footer small {
   color: white;
   font-size: 9px;
   font-weight: 600;
+  padding: 10px;
 }
 
-footer img {
-  width: 3%;
-  height: auto;
-}
