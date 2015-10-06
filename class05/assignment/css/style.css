@@ -1,0 +1,251 @@
+/*
+Project Name: Relaxr Blog
+Client: Relaxr
+Author: Saline Jiang
+Developer @GA in DC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.clear2 {
+  overflow: auto;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     background-color: #f0efef;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 1160px;
+  margin: auto;
+}
+
+.maincontent {
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+header {
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+}
+
+ul {
+  list-style: none;
+  margin-right: 100px;
+}
+
+li {
+  float: right;
+  text-align: center;
+  margin: 0px 10px;
+
+}
+
+section {
+  clear: left;
+  width: 700px;
+  float: left;
+  padding-right: 20px;
+}
+
+.more {
+  float: right;
+}
+
+img {
+  width: 100%
+}
+
+aside {
+  float: right;
+  width: 240px;
+}
+
+.now {
+  clear: both;
+  width: 100%;
+  background-color: #f9e42e;
+  text-align: center;
+  padding: 30px;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  background-color: #121212;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+/*.placeholder {
+  border: 1px solid #333;
+  background: rgba(255,255,255,.6);
+  padding: 20px;
+} */
+
+header {
+  background: #033048;
+  margin: 10px 0px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 600;
+  color: white;
+  margin: 30px 0px;
+  padding: 0;
+  text-indent: 100px;
+
+}
+
+nav {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+li {
+  color: #f9e42e;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+article p {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+article a {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
+
+article p::first-letter {
+  font-size: 60px;
+  font-weight: 300;
+  float: left;
+  padding: 0px 5px 0px 0px;
+}
+
+hr {
+  margin: 20px 0px;
+}
+aside h4 {
+  line-height: 0;
+}
+aside p {
+  font-size: 22px;
+  font-weight: 300;
+}
+
+aside a{
+  font-size: 22px;
+  font-weight: 600;
+}
+
+aside img {
+  margin-top: 30px;
+}
+
+.now a {
+  background-color: #033048;
+  border-radius: 5px;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 10px 40px;
+  text-decoration: none;
+}
+
+footer p {
+  color: yellow;
+  font-size: 40px;
+  font-weight: 800;
+  padding: 20px;
+}
+
+footer img {
+  height: 20px;
+  width: auto;
+  margin: 20px 0px 0px 5px;
+}
+
+footer small {
+  color: white;
+  font-size: 9px;
+  font-weight: 600;
+  padding: 10px;
+}
