@@ -18,7 +18,7 @@ Developer @GA in DC
 }
 
 /* Clear fix hack */
-.clearfix:after {
+.clearfix {
   content: ".";
   display: block;
   clear: both;
@@ -56,15 +56,6 @@ body {
   text-align: center;
 }
 
-body:before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background: rgba(0,0,0,.5);
-}
 
 h1 {
   text-align: left;
@@ -127,10 +118,20 @@ p {
   position: absolute;
 }
 
+.landing:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0,0,0,.5);
+}
+
 /******************************************
 /* QUESTION STYLES
 /*******************************************/
 
-h3 {
-  font-size: 2em;
+legend {
+  font-size: 2rem;
 }
