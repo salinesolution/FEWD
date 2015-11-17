@@ -73,7 +73,7 @@ header li {
 }
 
 img {
-  width: 4rem;
+  width: 6rem;
 }
 h2 {
   font-size: 3.5rem;
@@ -132,6 +132,15 @@ p {
 /* QUESTION STYLES
 /*******************************************/
 
-legend {
+label {
   font-size: 2rem;
+}
+
+input {
+  width: 50px;
+}
+
+fieldset {
+  background-color: gray;
+  margin: 20px 40px;
 }
