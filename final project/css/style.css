@@ -132,8 +132,8 @@ p {
 /* QUESTION STYLES
 /*******************************************/
 
-label {
-  font-size: 2rem;
+fieldset > label {
+  font-size: 2em;
 }
 
 input {
@@ -142,5 +142,33 @@ input {
 
 fieldset {
   background-color: gray;
-  margin: 20px 40px;
+  margin: 1em 20em;
+  background: rgba(0,0,0,.5);
+}
+
+input {
+  list-style: none;
+}
+
+label > input { /*hides radio */
+  visibility: hidden;
+  position: absolute;
+}
+
+label > input + img{ /* IMAGE STYLES */
+  cursor:pointer;
+  border:2px solid transparent;
+  width: 200px;
+  padding: 1em;
+}
+
+label > input:hover + img {
+  background: blue;
+}
+label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+  border:2px solid #f00;
+}
+
+#submit {
+  width: 50px;
 }
