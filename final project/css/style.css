@@ -143,7 +143,7 @@ input {
 
 fieldset {
   background-color: gray;
-  margin: 1em 10em;
+  margin: 1em 15em;
   background: rgba(0,0,0,.5);
   border: none;
 }
@@ -171,6 +171,8 @@ label > input + img{ /* IMAGE STYLES */
 label:hover {
   background: blue;
 }
+
+
 label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
   border:2px solid #f00;
 }
@@ -181,4 +183,20 @@ label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
 
 form p {
   margin: 0;
+}
+
+/* HIDE CANDIDATES SECTION */
+.candidates section{
+  display: none;
+}
+
+.candidates .revealBFF {
+  display: block;
+}
+
+/********
+FOOTER
+*******/
+footer {
+  height: 500px;
 }
