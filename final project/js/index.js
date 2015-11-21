@@ -10,6 +10,9 @@ $(document).ready(function() {
 		//prevent submission button default from refreshing the page
 		event.preventDefault();
 
+		//clear previous results
+
+
 		//get the selected values
 		var q1Answer = $('input[name=q1]:checked').val(); 
 		var q2Answer = $('input[name=q2]:checked').val();
@@ -67,14 +70,32 @@ $(document).ready(function() {
 		var index_maxValue = $.inArray(maxValue,allCounts);
 		console.log(index_maxValue);
 
-		//display result to user
+		//display result to user and scroll to
 		if (index_maxValue === 0) {
 			$('#hillary').addClass('revealBFF');
 
 			$(window).scrollTo('#hillary',1000);
-		}
+		} else if (index_maxValue === 1) {
+			$('#bernie').addClass('revealBFF');
 
-		//scroll to javascript plugin
+			$(window).scrollTo('#bernie',1000);
+		} else if (index_maxValue === 2) {
+			$('#donald').addClass('revealBFF');
+
+			$(window).scrollTo('#donald',1000);
+		} else if (index_maxValue === 3) {
+			$('#ben').addClass('revealBFF');
+
+			$(window).scrollTo('#ben',1000);
+		} else if (index_maxValue === 4) {
+			$('#marco').addClass('revealBFF');
+
+			$(window).scrollTo('#marco',1000);
+		} else if (index_maxValue === 5) {
+			$('#carly').addClass('revealBFF');
+
+			$(window).scrollTo('#carly',1000);
+		}
 
 	}
 
