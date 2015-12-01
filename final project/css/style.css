@@ -72,7 +72,7 @@ header li {
   float: right;
 }
 
-img {
+main img {
   width: 6rem;
   
 }
@@ -200,6 +200,19 @@ form p {
 
 .candidates .revealBFF {
   display: block;
+}
+
+/********
+ANSWER LAYOUT (section name of "candidates")
+*******/
+.candidate img {
+  width: 500px;
+  float: left;
+  margin-left: 100px;
+}
+
+.candidate p {
+  height: 500px;
 }
 
 /********
