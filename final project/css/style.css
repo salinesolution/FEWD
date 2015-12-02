@@ -178,7 +178,7 @@ label:hover {
 
 
 label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
-  border:2px solid #f00;
+  background: blue;
 }
 
 #submit {
@@ -189,6 +189,19 @@ label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
 form p {
   margin: 0;
 }
+
+
+/********
+Q5 Layout
+*******/
+.q5 label {
+  margin: 15px;
+}
+
+.q5answers {
+  margin: 0px 150px;
+}
+
 
 /*each candidate format*/
 .candidate {
