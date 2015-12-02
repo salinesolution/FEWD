@@ -97,10 +97,6 @@ h2 {
   color: black;
 }
 
-p {
-  margin-top: 0;
-  margin-bottom: 60px;
-}
 
 /******************************************
 /* LANDING PAGE LAYOUT
@@ -129,7 +125,11 @@ p {
 }
 
 .landing img {
-  width: 100px;
+  width: 60px;
+}
+
+.beforeButton {
+  margin-bottom: 60px;
 }
 
 
@@ -177,7 +177,11 @@ label:hover {
 }
 
 
-label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+label > input:checked + img { /* (RADIO CHECKED) IMAGE STYLES */
+  background: blue;
+}
+
+label > input:checked + p {
   background: blue;
 }
 
