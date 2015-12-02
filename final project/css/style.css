@@ -71,11 +71,8 @@ ul {
 header li {
   float: right;
 }
-
-main img {
-  width: 6rem;
   
-}
+
 h2 {
   font-size: 3.5rem;
   margin: 30px 0px;
@@ -112,6 +109,7 @@ p {
 .title {
   margin-top: 10px;
 }
+
 .container {
   width: 100%;
   top: 50%;
@@ -129,6 +127,11 @@ p {
   top: 0;
   background: rgba(0,0,0,.5);
 }
+
+.landing img {
+  width: 100px;
+}
+
 
 /******************************************
 /* QUESTION STYLES

@@ -33,8 +33,6 @@ $(document).ready(function() {
 		var sandersCount = 0
 		var trumpCount = 0
 		var carsonCount = 0
-		var rubioCount = 0
-		var carlyCount = 0
 
 		//running total of each candidate's submission
 		allAnswers.forEach(function(answer) {
@@ -46,10 +44,6 @@ $(document).ready(function() {
 			trumpCount++;
 			} else if (answer === 'carson') {
 			carsonCount++;
-			} else if (answer === 'rubio') {
-			rubioCount++;
-			} else if (answer === 'carly') {
-			carlyCount++;
 			}
 		});
 		
@@ -58,10 +52,8 @@ $(document).ready(function() {
 		console.log(sandersCount);
 		console.log(trumpCount);
 		console.log(carsonCount);
-		console.log(rubioCount);
-		console.log(carlyCount);
 
-		var allCounts = [clintonCount, sandersCount, trumpCount, carsonCount, rubioCount, carlyCount]
+		var allCounts = [clintonCount, sandersCount, trumpCount, carsonCount]
 
 		// Get the max value from the array    
 		var maxValue = Math.max.apply(Math, allCounts);
@@ -87,16 +79,6 @@ $(document).ready(function() {
 			$('#ben').addClass('revealBFF');
 
 			$(window).scrollTo('#ben',1000);
-		} else if (index_maxValue === 4) {
-			$('#marco').addClass('revealBFF');
-
-			$(window).scrollTo('#marco',1000);
-		} else if (index_maxValue === 5) {
-			$('#carly').addClass('revealBFF');
-
-			$(window).scrollTo('#carly',1000);
-		}
-
-	}
+		} 	}
 
 });
